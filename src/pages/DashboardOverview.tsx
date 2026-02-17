@@ -30,10 +30,10 @@ const soilData = [
 ];
 
 const cropHealth = [
-  { name: "Wheat", health: 92 },
-  { name: "Corn", health: 87 },
-  { name: "Soybean", health: 78 },
-  { name: "Rice", health: 95 },
+  { name: "Maize", health: 92 },
+  { name: "Cassava", health: 87 },
+  { name: "Sorghum", health: 78 },
+  { name: "Millet", health: 95 },
 ];
 
 const alerts = [
