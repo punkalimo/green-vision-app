@@ -8,6 +8,7 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Pricing from "./pages/Pricing";
 import DashboardOverview from "./pages/DashboardOverview";
+import PrecisionFarming from "./pages/PrecisionFarming";
 import Install from "./pages/Install";
 import NotFound from "./pages/NotFound";
 
@@ -25,6 +26,7 @@ const App = () => (
           <Route path="/register" element={<Register />} />
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/dashboard" element={<DashboardOverview />} />
+          <Route path="/dashboard/precision" element={<PrecisionFarming />} />
           <Route path="/install" element={<Install />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
